@@ -1,0 +1,129 @@
+/* Cuerpo de página */
+
+body {
+  font-family: "Raleway", "Open Sans";
+  color: black;
+  background-color:  black;
+ }
+
+/* Menu nav */
+
+ .navbar {
+  background-color: transparent !important;
+  color:white;
+}
+
+ .bg-interno{
+  background-color: #16a2b7;
+  transition: all 2s ease;
+ }
+
+ .h1{
+  font-family: "Raleway";
+  font-size: 400;
+ }
+ .container_header{
+  margin-left: 0;
+  margin-right: 0;
+} 
+
+/* Carousel */
+
+.carousel-item {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Contacto*/
+
+.container_h1{
+  margin-left: 0;
+  margin-right: 0;
+  color: white;
+} 
+
+/* Card*/
+
+.card0 {
+  background-color: black;
+}
+
+.card-body01 {  
+  background-color: #16a2b7;  
+  padding:0;
+}
+
+.fa-iconos{
+  font-size: 150%;
+  color: #fff;
+}
+
+.card-body02 {  
+  background-color: black;
+  color:white;
+  padding:0;
+  margin:0;
+  text-align:left;
+}
+
+.card-body00 {  
+  background-color:white;;  
+  margin-top: 1.5em;
+}
+
+.card-body03 { 
+  background-color: #16a2b7;  
+  color:white;
+  text-align:left;
+  height:17em;
+  padding: 0.5em;
+}
+
+.card-imagen {
+  height:140px;
+}
+
+/* Formulario*/
+
+.form-label {
+  color: white
+}
+.mb-3{
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+.button {
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+
+/* footer*/
+
+.page-footer {
+  background-color: #16a2b7;
+}
+
+footer {
+  color:white;
+  font-weight: bold;
+  background-color: #16a2b7;
+  font-family: "Raleway";
+  font-size: 400;
+  position: absolute;
+  width: 100%;
+  padding:20px
+ }
+
+ /* Botones de redes sociales*/
+
+.btn{
+  width:50px;
+  color:#16a2b7;
+  margin: auto;
+  padding:2%;
+  background-color: white;
+}
